@@ -116,7 +116,7 @@ steps:
 - task: octopusdeploy.octopus-deploy-build-release-tasks.octopus-push.OctopusPush@4
   displayName: 'Push Packages to Octopus'
   inputs:
-    OctoConnectedServiceName: SamplesOctopus
+    OctoConnectedServiceName: OctoSamples
     Space: 'Spaces-64'
     Package: '$(Build.SourcesDirectory)/output/*.zip'
 
