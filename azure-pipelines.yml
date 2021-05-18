@@ -119,4 +119,3 @@ steps:
     OctoConnectedServiceName: OctopusWebinars
     Space: 'Spaces-23'
     Package: '$(Build.SourcesDirectory)/output/*.zip'
-
